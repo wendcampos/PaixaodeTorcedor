@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.campos.paixaodetorcedor.segunda"
+    android:background="@drawable/robben">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite o nome do seu time"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:background="#fff"
+            android:layout_weight="0.06"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="Procurar"
+            android:id="@+id/btn_procurar"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.08"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+    </LinearLayout>
+</RelativeLayout>
